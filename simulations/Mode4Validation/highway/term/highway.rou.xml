@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026년 05월 08일 (금) 오후 02시 33분 47초 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/term/highway.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/term/highway.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/term/highway.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="-gneE5" color="yellow" id="route_0"/>
+    <route edges="gneE5" color="yellow" id="route_1"/>
+    <vehicle id="vehicle_0" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_1" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_10" depart="0.00" departSpeed="50.00" route="route_0"/>
+    <vehicle id="vehicle_11" depart="0.00" departSpeed="50.00" route="route_0"/>
+    <vehicle id="vehicle_12" depart="0.00" departSpeed="50.00" route="route_0"/>
+    <vehicle id="vehicle_13" depart="0.00" departSpeed="50.00" route="route_0"/>
+    <vehicle id="vehicle_14" depart="0.00" departSpeed="50.00" route="route_1"/>
+    <vehicle id="vehicle_15" depart="0.00" departSpeed="50.00" route="route_1"/>
+    <vehicle id="vehicle_16" depart="0.00" departSpeed="50.00" route="route_1"/>
+    <vehicle id="vehicle_2" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_3" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_4" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_5" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_6" depart="0.00" route="route_1"/>
+    <vehicle id="vehicle_7" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_8" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_9" depart="0.00" route="route_0"/>
+</routes>

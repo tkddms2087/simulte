@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Rerouter/additional file for highway_term.net.xml.
+     This network consists of two one-edge dead-end directions.
+     Therefore, vehicles naturally leave the simulation at the end of each edge.
+     These rerouters keep each vehicle on its original one-edge route.
+-->
+
+<additional>
+    <rerouter id="rerouter_forward" edges="gneE5">
+        <interval begin="0" end="100000">
+            <routeProbReroute id="route_forward" probability="1" />
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_backward" edges="-gneE5">
+        <interval begin="0" end="100000">
+            <routeProbReroute id="route_backward" probability="1" />
+        </interval>
+    </rerouter>
+</additional>

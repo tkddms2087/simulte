@@ -1,0 +1,4 @@
+<edges>
+    <edge id="gneE5" from="gneJ8" to="gneJ9" numLanes="2" speed="19.89"/>
+    <edge id="-gneE5" from="gneJ9" to="gneJ8" numLanes="2" speed="19.89"/>
+</edges>

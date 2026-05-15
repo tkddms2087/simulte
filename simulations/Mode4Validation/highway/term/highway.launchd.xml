@@ -1,5 +1,5 @@
 <launch>
-  <basedir path="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4/highway/006vpm"/>
+  <basedir path="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/term"/>
   <copy file="highway.net.xml"/>
   <copy file="highway.rou.xml"/>
   <copy file="rerouters.add.xml"/>

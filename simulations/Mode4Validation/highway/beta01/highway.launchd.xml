@@ -1,0 +1,8 @@
+<launch>
+  <basedir path="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/beta01"/>
+  <copy file="highway.net.xml"/>
+  <copy file="highway.edge.xml"/>
+  <copy file="highway.nod.xml"/>
+  <copy file="highway.rou.xml"/>
+  <copy file="highway.sumo.cfg" type="config"/>
+</launch>
