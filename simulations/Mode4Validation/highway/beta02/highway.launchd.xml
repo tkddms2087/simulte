@@ -1,5 +1,5 @@
 <launch>
-  <basedir path="/home/separk/Desktop/bin/simulte-1.4.1/simulations/Mode4Validation/highway/beta02"/>
+  <basedir path="/opt/veins-stack/simulte/simulations/Mode4Validation/highway/beta02"/>
   <copy file="highway.net.xml"/>
   <copy file="highway.edge.xml"/>
   <copy file="highway.nod.xml"/>
